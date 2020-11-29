@@ -1,0 +1,102 @@
+.navigation__link, .navigation__link--groupHeader {
+  padding: 0.3rem 1em 0.3em 1rem !important; 
+}
+
+.logo-container, .sidebar {
+  width: 13em !important;
+  background: #505061 !important;
+}
+
+.header {
+  height: 6rem !important;
+}
+
+.content {
+ background: #505061 !important;
+}
+
+/*.item-container {
+  height: 6rem !important;
+}*/
+
+.toolbar {;
+}
+
+.searchbox-field[type=search] {
+	background: #6a6f7c !important;
+}
+
+.item-subject {
+  font-size: 16px !important;
+}
+
+.item-senders {
+  font-size: 12px !important;
+  font-weight: bold !important;
+}
+
+.item-container.active, .item-is-selected {
+  background: #828895 !important;
+  color: white !important;
+}
+
+.item-icon {
+  _color: black !important;
+}
+
+.item-container.active:before, .item-is-selected:before {
+  background-color: #9397cd;
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100% !important;
+  width: 5px;
+  top: 0;
+}
+
+.label-stack-item:not(:first-of-type) {
+  max-width: 15em !important;
+  padding-right: 1px !important;
+  overflow: initial !important;
+  border-left-width: 2px !important;
+  border-radius: 3em !important;
+  align-self: initial !important;
+}
+
+/*.label-stack.is-stacked .label-stack-item:not(:first-child) {
+  --button-opacity: 100 !important;
+  max-width: var(--item-narrow);
+  transform: none !important;
+}
+
+.label-stack.is-stacked .label-stack-item {
+  height: 100% !important;
+}*/
+  
+.label-stack.is-stacked .label-stack-item {
+	margin: .125em !important;
+	--button-opacity: 1 !important;
+	max-width: var(--item-wide) !important;
+	transform: scale(1) !important;
+}
+
+.is-compact .item-container, .is-compact .item-container-row {
+	height: 4.5rem !important;
+}
+
+.item-icon {
+	width: auto;
+	height: auto;
+}
+
+body {
+	line-height: 1 !important;
+}
+
+
+/*.plaintext-editor {
+    background: linear-gradient(90deg,
+        transparent 72ch, lightgray 72ch,
+        lightgray calc(72ch + 1px), transparent calc(72ch + 1px),
+        transparent 80ch, lightgray 80ch) !important;
+}*/
